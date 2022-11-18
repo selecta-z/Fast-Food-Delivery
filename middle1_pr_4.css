@@ -1,0 +1,418 @@
+
+.middle_1{
+    position: relative;
+    top: 550px;
+}
+
+.middle1_title_1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: black;
+}
+
+.middle1_title_2{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.middle1_subTitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: black;
+}
+
+/* -------------------------images------------------------- */
+
+.middle1_images{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle1_images_img{
+    position: relative;
+    height: 100px;
+    width: 110px;
+    cursor: pointer;
+    border: 4px rgb(0, 0, 0) solid;
+    top: 436px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.default_active_img{
+    position: absolute;
+    top: 35px;
+    height: 400px;
+    width: 400px;
+    transition: .4s;
+    cursor: auto;
+    border: 5px rgb(0, 0, 0) groove;
+    border-radius: 30px;
+}
+
+.middle1_images_rowBlock{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+}
+
+.middle1_images_block1{
+    position: relative;
+    display: contents;
+}
+
+.rate:not(:checked) > input {
+    display: none;
+}
+
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:rgb(100, 98, 98);
+    transform: scale(1.2);
+    position: relative;
+    top: -10px;
+    transition: .1s;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.middle_1_columns{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 79px;
+}
+
+.middle1_column_2{
+    position: relative;
+    left: 50px;
+    top: 120px;
+}
+
+.middle1_price{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #9c124e;
+    margin-left: 10px;
+}
+
+.middle1_stars_info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+}
+
+.middle1_info_1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.middle1_info_1 span{
+    color: #382274;
+}
+
+.middle1_block2{
+    position: absolute;
+    top: 342.5px;
+}
+
+.middle1_info_2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+}
+
+/* -------------------------counter------------------------- */
+
+.middle1_counter{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle1_counter_number{
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+    background-color: rgb(247, 210, 231);
+    color: black;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.middle1_counter_minus, .middle1_counter_plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    width: 70px;
+    height: 30px;
+    border: 2px black solid;
+    transition: .3s;
+}
+
+.middle1_counter button span{
+    font-weight: 600;
+}
+
+.middle1_counter_minus:hover, .middle1_counter_plus:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(86, 84, 84);
+    color: white;
+    border: yellowgreen 2px solid;
+}
+
+/* .minus_disabled{
+    border: rgb(215, 19, 19) 2px solid;
+} */
+
+/* -------------------------like/shop------------------------- */
+
+.middle_like_shop_block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 40px;
+}
+
+.middle_like, .middle_shop{
+    width: 150px;
+    height: 60px;
+    border: 3.7px rgb(252, 105, 156) dotted;
+    background: transparent;
+}
+
+.middle_like i, .middle_shop i{
+    transform: scale(2.3);
+    transition: .3s;
+}
+
+.middle_like i:hover, .middle_shop i:hover{
+    transform: scale(2.8);
+    cursor: pointer;
+}
+
+.middle_like i{
+    color: red;
+}
+
+.middle_like{
+    border-right: 1px;
+}
+
+/* ----------------------------aboutFood---------------------------- */
+
+.middle1_aboutFood{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    top: 60px;
+}
+
+.middle1_aboutFood_none{
+    font-size: 22px;
+    display: none;
+}
+
+.default_active_text{
+    display: block;
+}
+
+/* -------------------------background_finalization------------------------- */
+
+.middle1_images::before{
+    content: '';
+    width: 220px;
+    height: 220px;
+    background-color: #e1f88e;
+    position: relative;
+    top: 100px;
+    left: -25px;
+    z-index: -10;
+    transform: scale(1.9);
+}
+
+
+
+/* ----------------------------media---------------------------- */
+
+@media screen and (max-width:1250px) {
+
+    .middle1_aboutFood{
+        width: 90%;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+
+    .middle1_aboutFood{
+        width: 70%;
+    }
+
+    .middle1_block2{
+        top: 400px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .middle_1_columns{
+        left: 60px;
+    }
+
+    .middle1_title_1{
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .middle1_block2{
+        top: 420px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .middle_1{
+        top: 300px;
+    }
+
+    .middle1_info_1{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .middle_1_columns{
+        flex-direction: column;
+        left: 0;
+    }
+
+    .middle1_stars_info{
+        flex-direction: column;
+    }
+
+    .middle1_info_1{
+        padding-left: 0;
+    }
+
+    .rate{
+        position: relative;
+        left: -15px;
+    }
+
+    .middle1_price{
+        margin-left: 0;
+    }
+
+    .middle1_column_2{
+        top: 350px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .middle1_block1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .middle1_block2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 340px;
+    }
+
+    .middle1_subTitle{
+        text-align: center;
+    }
+
+    .middle1_aboutFood{
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle1_title_1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .middle1_block2{
+        top: 365px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .middle1_block2{
+        top: 390px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .middle1_block2{
+        top: 410px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .middle1_block2{
+        top: 435px;
+    }
+}
